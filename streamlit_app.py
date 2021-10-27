@@ -1,5 +1,4 @@
-@st.cache
-def get_data():
-    url = "http://data.insideairbnb.com/united-states/ny/new-york-city/2019-09-12/visualisations/listings.csv"
-    return pd.read_csv(url)
-df = get_data()
+st.title("Streamlit 101: An in-depth introduction")
+st.markdown("Welcome to this in-depth introduction to [...].")
+st.header("Customary quote")
+st.markdown("> I just love to go home, no matter where I am [...]")
